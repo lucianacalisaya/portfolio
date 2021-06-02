@@ -70,6 +70,11 @@ transform: scale(1.1);}
     background-color: #bd90f8b7;
 }
 
+.resume-container button {
+    background-color: #B33F40;
+    border-radius: 15px;
+    padding: 5px;
+}
 
 .resume-container .resume-border {
     border-right: 2px black dotted ;
@@ -193,7 +198,7 @@ transform: scale(1.1);}
     background-color: #ffffff;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .tablet-breakpoint {
         display: flex;
         justify-content: center;
@@ -238,7 +243,7 @@ transform: scale(1.1);}
     }
 }
 
-@media only screen and (min-width:768px) and (max-width:992px) {
+@media only screen and (min-width:769px) and (max-width:992px) {
     .tablet-breakpoint {
         display: flex;
         flex-wrap: wrap;
