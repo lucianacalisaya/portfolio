@@ -72,8 +72,8 @@ transform: scale(1.1);}
 
 .resume-container .cv-link {
     background-color: #B33F40;
-    display: flex;
-    justify-self: flex-end;
+    color: #FDFBF9;
+    display: inline;
 }
 
 .resume-container .resume-border {
