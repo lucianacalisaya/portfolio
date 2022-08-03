@@ -6,15 +6,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
+  <!--CSS-->
   <link rel="stylesheet" href="css/style.css">
+
+  <!--Google Fonts-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Codystar&family=Comfortaa:wght@300&family=DotGothic16&family=Josefin+Sans:wght@300;400&family=Satisfy&display=swap"
     rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/fd9fe69d4b.js" crossorigin="anonymous"></script>
 
   <title>Luciana's Portfolio</title>
@@ -22,126 +24,174 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand my-logo" href="index.html">Lume</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse menu" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="cv.html">CV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <nav class="navbar">
+      <a href="index.html" class="navbar-logo my-logo">Lume</a>
+      <ul class="navbar-menu">
+        <li class="navbar-item"><a href="index.html" class="navbar-link">About Me</a></li>
+        <li class="navbar-item"><a href="cv.html" class="navbar-link">Resume</a></li>
+        <li class="navbar-item"><a href="portfolio.html" class="navbar-link"> Portfolio</a></li>
+        <li class="navbar-item"><a href="contact.html" class="navbar-link">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <div class="container resume-container">
-      <div class="row">
-        <div class="col-md-12 resume-top">
-          <h1 class="title">Resume</h1>
-          <a href="https://lucianacalisaya.github.io/curriculum/" class="cv-link">Single page resume</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 resume-border">
-          <h3 class="highlight-style-pink">Institutions</h3>
-        </div>
-        <div class="col-md-6">
-          <ul>
-            <li>Colegio Nacional de Ushuaia</li>
-            <li>Universidad de Mar del Plata</li>
-            <li>Coderhouse</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 resume-border">
-          <h3 class="highlight-style-light-blue">Titles</h3>
-        </div>
-        <div class="col-md-6">
-          <ul>
-            <li>Social science</li>
-            <li>Cambridge First Certificate</li>
-            <li>Web development</li>
-            <li>UX - UI</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 resume-border">
-          <h3 class="highlight-style-orange">Languages and levels</h3>
-        </div>
-        <div class="col-md-6">
-          <ul>
-            <li><strong>Spanish:</strong> Native</li>
-            <li><strong>English:</strong> B2</li>
-            <li><strong>Portuguese:</strong> B1</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6  resume-border">
-          <h3 class="highlight-style-violet">Experience</h3>
-        </div>
-        <div class="col-md-6">
-          <ul>
-            <li>Web development: online course <a href="https://lucianacalisaya.github.io/blossomweddings/">project</a>
-            </li>
-            <li>UX - UI: online course <a href="https://www.behance.net/gallery/111440211/Reservando-Proyecto-final-Coderhouse">project</a></li>
-            <li>This <a href="index.html">page</a></li>
-            <li>Web developer tutor on <a href="https://www.coderhouse.com/">Coderhouse</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6  resume-border">
-          <h3 class="highlight-style-green">Knowledge</h3>
-        </div>
-        <div class="col-md-6">
-          <ul>
-            <li>HTML & CSS</li>
-            <li>Bootstrap</li>
-            <li>SASS</li>
-            <li>Adobe XD</li>
-            <li>GitHub</li>
-          </ul>
-        </div>
-      </div>
+  <main class="resume-main">
+    <div class="title-container">
+      <h1 class="title">My Resume</h1>
     </div>
-  </main>
-  <footer>
-    <div class="container-fluid footer-styles footer-static">
-      <div class="row">
-        <div class="col-md-3 col-sm-3 col-3">
-          <a href = "mailto: lmc.calisaya@gmail.com"><i class="far fa-envelope"></i></a>
+    <div class="quick-info">
+        <div class="quick-info__move">
+            <div class="quick-info__image">
+                <img src="img/luciana-profile-pic.png" alt="">
+            </div>
+            <div class="quick-info__contact">
+                <h5>Luciana Melina Calisaya</h5>
+                <h5 class="mail">lmc.calisaya@gmail.com</h5>
+                <h5 class="time">Contact time: morning</h5>
+                <ul class="social-media">
+                    <li><a href="mailto: lmc.calisaya@gmail.com"><i class="far fa-envelope"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/luciana-calisaya/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/lucianacalisaya"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.behance.net/lucalisaya"><i class="fab fa-behance"></i></a></li>
+                </ul>
+                <a class="quick-info__download" href="https://lucianacalisaya.github.io/portfolio/">Download PDF</a>
+            </div>                
         </div>
-        <div class="col-md-3 col-sm-3  col-3">
-          <a href="https://www.behance.net/lucalisaya"><i class="fab fa-behance"></i></a>
-        </div>
-        <div class="col-md-3 col-sm-3 col-3">
-          <a href="https://github.com/lucianacalisaya"><i class="fab fa-github"></i></a>
-        </div>
-        <div class="col-md-3 col-sm-3 col-3">
-          <a href="https://www.linkedin.com/in/luciana-calisaya/"><i class="fab fa-linkedin-in"></i></a>
-        </div>        
-      </div>
     </div>
-  </footer>
+    <div class="cv">
+        <div class="background">
+            <h2>My background</h2>
+            <div class="studies">
+                <h4>Studies</h4>
+                <ul>
+                    <li>Colegio Nacional de Ushuaia - Social Science</li>
+                    <li>Cambridge First Certificate <span>level B2</span></li>
+                    <li>Universidad de Mar del Plata - Informatics Engineering <span>studying</span></li>
+                </ul>
+            </div>
+            <div class="courses">
+                <h4>Courses</h4>
+                <ul>
+                    <li>Web development</li>
+                    <li>UX/UI</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="work">
+                <h4>Work experience</h4>
+                <ul>
+                    <li>Web development Tutor at <a href="https://www.coderhouse.com/">Coderhouse</a></li>
+                </ul>
+            </div>
+            <div class="things">
+                <h4>Things I like about myself. I'm:</h4>
+                <ul>
+                    <li>Kind</li>
+                    <li>Helpful</li>
+                    <li>Organised</li>
+                    <li>A quick learner</li>
+                    <li>Good at maths and solving problems</li>
+                </ul>
+            </div>
+            <div class="others">
+                <h4>Extra</h4>
+                <ul>
+                    <li>Cashier at Keystone Resort - Work&Travel program in the USA.</li>
+                    <li>Fun fact, I was the most efficient cashier for one month straight.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <div class="languages">
+                <h4>Languages</h4>
+                <ul>
+                    <li>Native Spanish</li>
+                    <li>Fluent English</li>
+                    <li>Basic Portuguese</li>
+                </ul>
+            </div>
+            <div class="sketch-code">
+                <h4>Web Sketch</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SASS <span>Node</span></li>
+                    <li>SEO</li>
+                    <li>JavaScript <span>JQuery</span></li>
+                    <li>React.js</li>
+                </ul>
+            </div>
+            <div class="sketch">
+                <h4>Visual Sketch</h4>
+                <ul>
+                    <li>Adobe XD <span>Most used</span></li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+            <div class="frameworks">
+                <h4>Frameworks</h4>
+                <ul>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="team">
+                <h4>Team work</h4>
+                <ul>
+                    <li>Git</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+            <div class="plataform">
+                <h4>Code plataform</h4>
+                <ul>
+                    <li>Visual Studio Code</li>
+                </ul>
+            </div>
+            <div class="ux-ui">
+                <h4>UX/UI</h4>
+                <ul>
+                    <li>User research</li>
+                    <li>User testing</li>
+                    <li>Whimsical</li>
+                    <li>Optimal workshop</li>
+                    <li>Behance</li>
+                </ul>
+            </div>
+        </div>
+        <div class="about">
+            <h2>A little bit about me</h2>
+            <p>
+                I've lived in 2 pretty international touristic places such as Tilcara and Ushuaia, both in north and
+                south extremes of Argentina so I've always had contact with foreign people, I grew around many cultures
+                and that formed me to be the kind and polite person I'm today. Even though friends and family
+                consider me a nice person I never thought I could actually tutor people because I thought you just
+                had to have that skill but turns out I learnt how to explain myself and teach, plus the feedback I
+                get really motivates me to keep going. <br>
+                Where I work I experience changes all the time and I adapt really fast, I manage to keep organised
+                and able to work and study at the same time. <br>
+                I think I would be a nice incorporation to a team, perhaps I don't have much experience but I'm
+                willing to learn and I'd love to gain experience.
+            </p>
+        </div>
+    </div>
+</main>
+<footer>
+  <div class="footer-container footer-still">
+    <div class="footer-iconbox">
+      <a href="mailto: lmc.calisaya@gmail.com"><i class="far fa-envelope"></i></a>
+    </div>
+    <div class="footer-iconbox">
+      <a href="https://www.behance.net/lucalisaya"><i class="fab fa-behance"></i></a>
+    </div>
+    <div class="footer-iconbox">
+      <a href="https://github.com/lucianacalisaya"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="footer-iconbox">
+      <a href="https://www.linkedin.com/in/luciana-calisaya/"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</footer>
 
 
 

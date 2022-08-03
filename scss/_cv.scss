@@ -1,0 +1,128 @@
+.resume-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding: 0 6rem;
+    span {
+        background-color: #bc8f8f;
+        padding: 2px;
+        border-radius: 15px;
+    }
+    h1 {
+        font-family: 'Bebas Neue', cursive;
+    }
+    h2 {
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1px;
+    }
+    h4 {
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1px;
+    }
+    h6 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    li {
+        font-family: 'Montserrat', sans-serif;
+        list-style: none;
+    }
+}
+
+.quick-info {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 815.7px;
+    h5 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    &__move {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #bc8f8f;
+        padding: 10px;
+        border-radius: 20px;
+        width: 100%;
+        max-width: 815.7px;
+    }
+    &__image {
+        width: 15%;
+    }
+    img {
+        width: 100%;
+        border-radius: 100%;
+        box-shadow: 0px 0px 4px 4px #0000001c
+    }
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2%;
+    }
+    &__download {
+        color: #FFFFFF;
+        background-color: #141414;
+        border-radius:  20px;
+        font-family: 'Montserrat', sans-serif;
+        width: fit-content;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .social-media{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Montserrat', sans-serif;
+        list-style: none;
+        a {
+            font-size: 20px;
+            color: #FFFFFF;
+            i {
+                background-color: unset;
+            }
+        }
+    }
+}
+
+.cv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+    width: 100%;
+    max-width: 815.7px;
+    .background {
+        width: 100%;
+        max-width: 518.05px;
+        padding-top: 10px;
+        div {
+            margin-bottom: 5px;
+        }
+        .work a{
+            text-decoration: none;
+            color: #bc8f8f;
+        }
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 10px;
+        ul {
+            width: 180px;
+        }
+        h4 {
+            width: 36%;
+        }
+        div {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 5px;
+        }
+    }
+    .about {
+        padding-top: 10px;
+        width: 815.7px;
+    }
+}

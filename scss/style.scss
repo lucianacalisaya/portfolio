@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #141414;
+    color: #ffffff;
+}
+@import 'navbar.scss';
+@import 'about-me.scss';
+@import 'contact.scss';
+@import 'cv.scss';
+@import 'portfolio.scss';
+@import 'footer.scss';
+@import 'media-queries.scss';
+
