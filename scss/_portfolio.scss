@@ -41,12 +41,15 @@
         }
         &-image {
             width: 12rem;
+            &--gif {
+                width: 100%;
+            }
         }
         &-grid {
             display: grid;
-            background-color: white;
             align-items: center;
-            grid-template-columns: 19vw 19vw 12vw;
+            grid-template-columns: 22% 50% auto;
+            grid-column-gap: 1rem;            
             grid-template-rows: repeat(2,auto);
             grid-template-areas:
             'desktop desktop mobile'
@@ -74,11 +77,13 @@
         }
         &-subtitle {
             font-family: 'Bebas Neue', cursive;
+            letter-spacing: 6px;
         }
         &-list {
             list-style: none;
             display: flex;
             justify-content: space-around;
+            padding: 1rem 0;
             &-item {
                 i {
                     font-size: 2rem;
@@ -98,6 +103,15 @@
                 }
                 .fa-behance {
                     color: #1769ff;
+                }
+                .fa-react {
+                    color: #00d8ff;
+                }
+                .fa-js {
+                    color: #f7df1e;
+                }
+                .fa-sass {
+                    color: #cf649a;
                 }
                 img {
                     height: 2rem;
